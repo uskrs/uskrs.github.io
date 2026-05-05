@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>UPRAVA</title>
+	<link rel="icon" type="image/x-icon" href="./logo/green.png">
+    <meta name="keywords" content="uprava, uskrs, vaskrs, dino, dnevnici jednog dinosaurusa, light fidelity, antistereotip, mup, uprava srpske kibernetike" />
+    <style>
+        /* cela stranica */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        /* TRIKOLOR ZASTAVA */
+        .flag {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            z-index: 5;
+            animation: fadeOut 11s forwards;
+            animation-delay: 11s; /* nakon 11 sekunde počinje nestajanje */
+        }
+
+        .stripe {
+            flex: 1;
+        }
+
+        .red { background: #ff0000; }
+        .blue { background: #0000ff; }
+        .white { background: #ffffff; }
+
+        /* LOGO */
+        .logo {
+            width: 300px;
+            z-index: 10;
+            animation: wobble 2s infinite;
+        }
+		.logo2 {
+            width: 160px;
+            z-index: 10;
+            animation: wobble 2s infinite;
+        }
+		.logo3 {
+            width: 170px;
+            z-index: 10;
+            animation: wobble 2s infinite;
+        }
+		
+		.logo4 {
+            width: 160px;
+            z-index: 10;
+            animation: wobble 2s infinite;
+        }
+		
+		.logo5 {
+            width: 300px;
+            z-index: 10;
+            animation: wobble 2s infinite;
+        }
+        
+        /* WOBBLE ANIMACIJA */
+        @keyframes wobble {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(20deg); }
+            50% { transform: rotate(-20deg); }
+            75% { transform: rotate(18deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        /* NESTANJE ZASTAVE */
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="flag">
+		<div style="text-align:center;"><h1>Управа Српске Кибернетике - уск [тачка] рс</h1>
+			<h2>milutingavrilovicbeograd [at] gmail [dot] com ... <a href="ng1np" style="color: violet">ng1np</a> ... <a href="btc" style="color: #118311">btc</a> ... <a href="lightfidelity-lifi.com" style="color: orangered">lifi</a></h2> 
+			<p><iframe src="https://usk.rs/pixel.html" height="150px" width="330px" title="description"></iframe></p>
+		</div>
+        <div class="stripe red"></div>
+        <div class="stripe blue"></div>
+        <div class="stripe white"></div>
+    </div>
+	
+    <!-- LOGO -->
+    <img src="usk.png" alt="uskrs logo" class="logo">
+	<p></p>
+
+	<img src="orange.png" alt="orange dino logo" class="logo2" >
+	<p></p>
+
+	<img src="lifi.png" alt="light fidelity logo" class="logo3">
+	<p></p>
+
+	<img src="green.png" alt="green dino logo" class="logo4" >
+	<p></p>
+
+	<img src="logotip.png" alt="antistereotip logo" class="logo5" >
+
+
+</body>
+</html>
